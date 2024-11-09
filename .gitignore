@@ -1,9 +1,12 @@
 # Ignore everything in RR_ws except src
-rr_ws/log
-rr_ws/build
-rr_ws/dist
-rr_ws/install
-rr_ws/Rosmaster_Lib.egg-info
+#rr_ws/log
+#rr_ws/build
+#rr_ws/dist
+#rr_ws/install
+#rr_ws/Rosmaster_Lib.egg-info
+rr_ws/*
+!rr_ws/src/
+!rr_ws/src/**
 
 # ROS-related ignores
 log/
