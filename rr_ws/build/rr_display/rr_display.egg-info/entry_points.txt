@@ -1,0 +1,3 @@
+[console_scripts]
+display = rr_display.display:main
+

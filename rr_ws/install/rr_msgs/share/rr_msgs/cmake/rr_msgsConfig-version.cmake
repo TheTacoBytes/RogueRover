@@ -1,0 +1,1 @@
+/home/orin/RogueRover/RR_ws/build/rr_msgs/ament_cmake_core/rr_msgsConfig-version.cmake

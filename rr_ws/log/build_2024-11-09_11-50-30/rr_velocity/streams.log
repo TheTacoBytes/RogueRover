@@ -1,0 +1,25 @@
+[1.309s] Invoking command in '/home/orin/RogueRover/RR_ws/build/rr_velocity': LD_LIBRARY_PATH=/home/orin/RogueRover/RR_ws/install/rr_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/orin/RogueRover/RR_ws/build/rr_velocity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/RogueRover/RR_ws/install/rr_velocity/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/orin/RogueRover/RR_ws/build/rr_velocity/build --no-deps symlink_data
+[1.857s] running develop
+[2.171s] running egg_info
+[2.171s] creating rr_velocity.egg-info
+[2.171s] writing rr_velocity.egg-info/PKG-INFO
+[2.172s] writing dependency_links to rr_velocity.egg-info/dependency_links.txt
+[2.172s] writing entry points to rr_velocity.egg-info/entry_points.txt
+[2.172s] writing requirements to rr_velocity.egg-info/requires.txt
+[2.172s] writing top-level names to rr_velocity.egg-info/top_level.txt
+[2.172s] writing manifest file 'rr_velocity.egg-info/SOURCES.txt'
+[2.176s] reading manifest file 'rr_velocity.egg-info/SOURCES.txt'
+[2.177s] writing manifest file 'rr_velocity.egg-info/SOURCES.txt'
+[2.180s] running build_ext
+[2.180s] Creating /home/orin/RogueRover/RR_ws/install/rr_velocity/lib/python3.10/site-packages/rr-velocity.egg-link (link to .)
+[2.182s] Installing odom_pub script to /home/orin/RogueRover/RR_ws/install/rr_velocity/lib/rr_velocity
+[2.182s] Installing vel_raw_pub script to /home/orin/RogueRover/RR_ws/install/rr_velocity/lib/rr_velocity
+[2.183s] 
+[2.183s] Installed /home/orin/RogueRover/RR_ws/build/rr_velocity
+[2.183s] running symlink_data
+[2.183s] creating /home/orin/RogueRover/RR_ws/install/rr_velocity/share/ament_index
+[2.183s] creating /home/orin/RogueRover/RR_ws/install/rr_velocity/share/ament_index/resource_index
+[2.184s] creating /home/orin/RogueRover/RR_ws/install/rr_velocity/share/ament_index/resource_index/packages
+[2.184s] symbolically linking /home/orin/RogueRover/RR_ws/build/rr_velocity/resource/rr_velocity -> /home/orin/RogueRover/RR_ws/install/rr_velocity/share/ament_index/resource_index/packages
+[2.184s] symbolically linking /home/orin/RogueRover/RR_ws/build/rr_velocity/package.xml -> /home/orin/RogueRover/RR_ws/install/rr_velocity/share/rr_velocity
+[2.269s] Invoked command in '/home/orin/RogueRover/RR_ws/build/rr_velocity' returned '0': LD_LIBRARY_PATH=/home/orin/RogueRover/RR_ws/install/rr_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/orin/RogueRover/RR_ws/build/rr_velocity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/RogueRover/RR_ws/install/rr_velocity/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/orin/RogueRover/RR_ws/build/rr_velocity/build --no-deps symlink_data

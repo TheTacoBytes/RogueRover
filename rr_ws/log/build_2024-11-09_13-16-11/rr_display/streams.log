@@ -1,0 +1,24 @@
+[1.949s] Invoking command in '/home/orin/RogueRover/RR_ws/build/rr_display': PYTHONPATH=/home/orin/RogueRover/RR_ws/build/rr_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/RogueRover/RR_ws/install/rr_display/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/orin/RogueRover/RR_ws/build/rr_display/build --no-deps symlink_data
+[2.524s] running develop
+[2.856s] running egg_info
+[2.856s] creating rr_display.egg-info
+[2.857s] writing rr_display.egg-info/PKG-INFO
+[2.857s] writing dependency_links to rr_display.egg-info/dependency_links.txt
+[2.857s] writing entry points to rr_display.egg-info/entry_points.txt
+[2.857s] writing requirements to rr_display.egg-info/requires.txt
+[2.858s] writing top-level names to rr_display.egg-info/top_level.txt
+[2.858s] writing manifest file 'rr_display.egg-info/SOURCES.txt'
+[2.860s] reading manifest file 'rr_display.egg-info/SOURCES.txt'
+[2.861s] writing manifest file 'rr_display.egg-info/SOURCES.txt'
+[2.865s] running build_ext
+[2.865s] Creating /home/orin/RogueRover/RR_ws/install/rr_display/lib/python3.10/site-packages/rr-display.egg-link (link to .)
+[2.867s] Installing display script to /home/orin/RogueRover/RR_ws/install/rr_display/lib/rr_display
+[2.867s] 
+[2.868s] Installed /home/orin/RogueRover/RR_ws/build/rr_display
+[2.868s] running symlink_data
+[2.868s] creating /home/orin/RogueRover/RR_ws/install/rr_display/share/ament_index
+[2.868s] creating /home/orin/RogueRover/RR_ws/install/rr_display/share/ament_index/resource_index
+[2.868s] creating /home/orin/RogueRover/RR_ws/install/rr_display/share/ament_index/resource_index/packages
+[2.868s] symbolically linking /home/orin/RogueRover/RR_ws/build/rr_display/resource/rr_display -> /home/orin/RogueRover/RR_ws/install/rr_display/share/ament_index/resource_index/packages
+[2.868s] symbolically linking /home/orin/RogueRover/RR_ws/build/rr_display/package.xml -> /home/orin/RogueRover/RR_ws/install/rr_display/share/rr_display
+[3.004s] Invoked command in '/home/orin/RogueRover/RR_ws/build/rr_display' returned '0': PYTHONPATH=/home/orin/RogueRover/RR_ws/build/rr_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/RogueRover/RR_ws/install/rr_display/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/orin/RogueRover/RR_ws/build/rr_display/build --no-deps symlink_data

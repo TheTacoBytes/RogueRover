@@ -1,0 +1,353 @@
+[0.000000] (-) TimerEvent: {}
+[0.000590] (rr_description) JobQueued: {'identifier': 'rr_description', 'dependencies': OrderedDict()}
+[0.001153] (rr_display) JobQueued: {'identifier': 'rr_display', 'dependencies': OrderedDict()}
+[0.001419] (rr_msgs) JobQueued: {'identifier': 'rr_msgs', 'dependencies': OrderedDict()}
+[0.001696] (rr_velocity) JobQueued: {'identifier': 'rr_velocity', 'dependencies': OrderedDict([('rr_msgs', '/home/orin/RogueRover/RR_ws/install/rr_msgs')])}
+[0.001798] (rr_msgs) JobStarted: {'identifier': 'rr_msgs'}
+[0.011744] (rr_description) JobStarted: {'identifier': 'rr_description'}
+[0.020663] (rr_display) JobStarted: {'identifier': 'rr_display'}
+[0.031631] (rr_msgs) JobProgress: {'identifier': 'rr_msgs', 'progress': 'cmake'}
+[0.032855] (rr_msgs) JobProgress: {'identifier': 'rr_msgs', 'progress': 'build'}
+[0.034264] (rr_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin/RogueRover/RR_ws/build/rr_msgs', '--', '-j6', '-l6'], 'cwd': '/home/orin/RogueRover/RR_ws/build/rr_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('SSH_CLIENT', '192.168.50.67 25230 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orin/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/orin/RogueRover/RR_ws/build/rr_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.50.67 25230 192.168.50.243 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099491] (-) TimerEvent: {}
+[0.200423] (-) TimerEvent: {}
+[0.301799] (-) TimerEvent: {}
+[0.402486] (-) TimerEvent: {}
+[0.503135] (-) TimerEvent: {}
+[0.603921] (-) TimerEvent: {}
+[0.641211] (rr_msgs) StdoutLine: {'line': b'[  1%] Built target rr_msgs__cpp\n'}
+[0.642484] (rr_msgs) StdoutLine: {'line': b'[ 12%] Built target rr_msgs__rosidl_generator_c\n'}
+[0.643362] (rr_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_rr_msgs\n'}
+[0.643539] (rr_msgs) StdoutLine: {'line': b'[ 35%] Built target rr_msgs__rosidl_typesupport_cpp\n'}
+[0.643717] (rr_msgs) StdoutLine: {'line': b'[ 35%] Built target rr_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.643892] (rr_msgs) StdoutLine: {'line': b'[ 47%] Built target rr_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.644265] (rr_msgs) StdoutLine: {'line': b'[ 58%] Built target rr_msgs__rosidl_typesupport_introspection_c\n'}
+[0.644458] (rr_msgs) StdoutLine: {'line': b'[ 70%] Built target rr_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.644612] (rr_msgs) StdoutLine: {'line': b'[ 81%] Built target rr_msgs__rosidl_typesupport_c\n'}
+[0.645100] (rr_msgs) StdoutLine: {'line': b'[ 81%] Built target rr_msgs\n'}
+[0.646229] (rr_msgs) StdoutLine: {'line': b'[ 82%] Built target rr_msgs__py\n'}
+[0.646717] (rr_msgs) StdoutLine: {'line': b'[ 93%] Built target rr_msgs__rosidl_generator_py\n'}
+[0.647011] (rr_msgs) StdoutLine: {'line': b'[100%] Built target rr_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.647276] (rr_msgs) StdoutLine: {'line': b'[100%] Built target rr_msgs__rosidl_typesupport_c__pyext\n'}
+[0.647525] (rr_msgs) StdoutLine: {'line': b'[100%] Built target rr_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.704056] (-) TimerEvent: {}
+[0.713990] (rr_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.715172] (rr_msgs) StdoutLine: {'line': b'writing rr_msgs.egg-info/PKG-INFO\n'}
+[0.715732] (rr_msgs) StdoutLine: {'line': b'writing dependency_links to rr_msgs.egg-info/dependency_links.txt\n'}
+[0.716103] (rr_msgs) StdoutLine: {'line': b'writing top-level names to rr_msgs.egg-info/top_level.txt\n'}
+[0.721124] (rr_msgs) StdoutLine: {'line': b"reading manifest file 'rr_msgs.egg-info/SOURCES.txt'\n"}
+[0.722503] (rr_msgs) StdoutLine: {'line': b"writing manifest file 'rr_msgs.egg-info/SOURCES.txt'\n"}
+[0.790804] (rr_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_rr_msgs_egg\n'}
+[0.804153] (-) TimerEvent: {}
+[0.904631] (-) TimerEvent: {}
+[1.005078] (-) TimerEvent: {}
+[1.105565] (-) TimerEvent: {}
+[1.206097] (-) TimerEvent: {}
+[1.209765] (rr_msgs) CommandEnded: {'returncode': 0}
+[1.306239] (-) TimerEvent: {}
+[1.407172] (-) TimerEvent: {}
+[1.507848] (-) TimerEvent: {}
+[1.512788] (rr_msgs) JobProgress: {'identifier': 'rr_msgs', 'progress': 'install'}
+[1.529603] (rr_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin/RogueRover/RR_ws/build/rr_msgs'], 'cwd': '/home/orin/RogueRover/RR_ws/build/rr_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'orin'), ('SSH_CLIENT', '192.168.50.67 25230 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orin/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/orin/RogueRover/RR_ws/build/rr_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.50.67 25230 192.168.50.243 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.545824] (rr_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.546943] (rr_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.547450] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/ament_index/resource_index/rosidl_interfaces/rr_msgs\n'}
+[1.548708] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/arm_joint.h\n'}
+[1.548947] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/arm_joint__functions.h\n'}
+[1.549300] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/arm_joint__struct.h\n'}
+[1.549554] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/arm_joint__type_support.h\n'}
+[1.549757] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/image_msg__functions.h\n'}
+[1.549969] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/image_msg__struct.h\n'}
+[1.550320] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/image_msg__type_support.h\n'}
+[1.550538] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/point_array__functions.h\n'}
+[1.550752] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/point_array__struct.h\n'}
+[1.551145] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/point_array__type_support.h\n'}
+[1.551365] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/position__functions.h\n'}
+[1.551579] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/position__struct.h\n'}
+[1.551795] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/position__type_support.h\n'}
+[1.552006] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/target__functions.h\n'}
+[1.552219] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/target__struct.h\n'}
+[1.552433] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/target__type_support.h\n'}
+[1.552648] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/target_array__functions.h\n'}
+[1.552861] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/target_array__struct.h\n'}
+[1.553190] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/target_array__type_support.h\n'}
+[1.553409] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/image_msg.h\n'}
+[1.553613] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/point_array.h\n'}
+[1.553818] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/position.h\n'}
+[1.554028] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.554262] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/target.h\n'}
+[1.554462] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/target_array.h\n'}
+[1.554655] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/detail/kinematics__functions.h\n'}
+[1.554865] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/detail/kinematics__struct.h\n'}
+[1.555074] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/detail/kinematics__type_support.h\n'}
+[1.555283] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/detail/robot_arm_array__functions.h\n'}
+[1.555496] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/detail/robot_arm_array__struct.h\n'}
+[1.555706] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/detail/robot_arm_array__type_support.h\n'}
+[1.555912] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/kinematics.h\n'}
+[1.556119] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/robot_arm_array.h\n'}
+[1.556452] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/environment/library_path.sh\n'}
+[1.556733] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/environment/library_path.dsv\n'}
+[1.557987] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/arm_joint__rosidl_typesupport_fastrtps_c.h\n'}
+[1.558218] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/image_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[1.558436] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h\n'}
+[1.558655] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/position__rosidl_typesupport_fastrtps_c.h\n'}
+[1.558902] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/target__rosidl_typesupport_fastrtps_c.h\n'}
+[1.559125] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/target_array__rosidl_typesupport_fastrtps_c.h\n'}
+[1.559338] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.559550] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/detail/kinematics__rosidl_typesupport_fastrtps_c.h\n'}
+[1.559767] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/detail/robot_arm_array__rosidl_typesupport_fastrtps_c.h\n'}
+[1.560576] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/arm_joint__rosidl_typesupport_introspection_c.h\n'}
+[1.560800] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/image_msg__rosidl_typesupport_introspection_c.h\n'}
+[1.561022] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/point_array__rosidl_typesupport_introspection_c.h\n'}
+[1.561267] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/position__rosidl_typesupport_introspection_c.h\n'}
+[1.561480] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/target__rosidl_typesupport_introspection_c.h\n'}
+[1.561697] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/target_array__rosidl_typesupport_introspection_c.h\n'}
+[1.561906] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.562121] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/detail/kinematics__rosidl_typesupport_introspection_c.h\n'}
+[1.562354] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/detail/robot_arm_array__rosidl_typesupport_introspection_c.h\n'}
+[1.563388] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/arm_joint.hpp\n'}
+[1.563614] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/arm_joint__builder.hpp\n'}
+[1.563835] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/arm_joint__struct.hpp\n'}
+[1.564049] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/arm_joint__traits.hpp\n'}
+[1.564261] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/image_msg__builder.hpp\n'}
+[1.564476] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/image_msg__struct.hpp\n'}
+[1.564689] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/image_msg__traits.hpp\n'}
+[1.564898] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/point_array__builder.hpp\n'}
+[1.565128] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/point_array__struct.hpp\n'}
+[1.565337] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/point_array__traits.hpp\n'}
+[1.565546] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/position__builder.hpp\n'}
+[1.565756] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/position__struct.hpp\n'}
+[1.565964] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/position__traits.hpp\n'}
+[1.566171] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/target__builder.hpp\n'}
+[1.566378] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/target__struct.hpp\n'}
+[1.566585] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/target__traits.hpp\n'}
+[1.566796] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/target_array__builder.hpp\n'}
+[1.567003] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/target_array__struct.hpp\n'}
+[1.567213] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/target_array__traits.hpp\n'}
+[1.567419] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/image_msg.hpp\n'}
+[1.567619] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/point_array.hpp\n'}
+[1.567821] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/position.hpp\n'}
+[1.568022] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/target.hpp\n'}
+[1.568224] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/target_array.hpp\n'}
+[1.568466] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/detail/kinematics__builder.hpp\n'}
+[1.568675] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/detail/kinematics__struct.hpp\n'}
+[1.568885] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/detail/kinematics__traits.hpp\n'}
+[1.569194] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/detail/robot_arm_array__builder.hpp\n'}
+[1.569416] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/detail/robot_arm_array__struct.hpp\n'}
+[1.569622] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/detail/robot_arm_array__traits.hpp\n'}
+[1.569816] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/kinematics.hpp\n'}
+[1.570001] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/robot_arm_array.hpp\n'}
+[1.571246] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/arm_joint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.571472] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/image_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.571710] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.571919] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.572135] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.572355] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/target_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.572563] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.572776] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/detail/kinematics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.572993] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/detail/robot_arm_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.574162] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/arm_joint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.574379] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/image_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.574593] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.574806] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.575021] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.575235] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/msg/detail/target_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.575447] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/detail/kinematics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.575659] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/include/rr_msgs/rr_msgs/srv/detail/robot_arm_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.575956] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/environment/pythonpath.sh\n'}
+[1.576238] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/environment/pythonpath.dsv\n'}
+[1.576782] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.577003] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.577239] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.577448] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.578844] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/__init__.py\n'}
+[1.579063] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/_rr_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.579277] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/_rr_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.579512] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/_rr_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.579723] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/librr_msgs__rosidl_generator_py.so\n'}
+[1.579941] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/msg/__init__.py\n'}
+[1.580153] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/msg/_arm_joint.py\n'}
+[1.580367] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/msg/_arm_joint_s.c\n'}
+[1.580579] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/msg/_image_msg.py\n'}
+[1.580787] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/msg/_image_msg_s.c\n'}
+[1.580996] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/msg/_point_array.py\n'}
+[1.581255] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/msg/_point_array_s.c\n'}
+[1.581465] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/msg/_position.py\n'}
+[1.581665] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/msg/_position_s.c\n'}
+[1.581856] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/msg/_target.py\n'}
+[1.582059] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/msg/_target_array.py\n'}
+[1.582265] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/msg/_target_array_s.c\n'}
+[1.582473] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/msg/_target_s.c\n'}
+[1.582681] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/rr_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.582883] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/rr_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.583097] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/rr_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.583310] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/srv/__init__.py\n'}
+[1.583525] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/srv/_kinematics.py\n'}
+[1.583735] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/srv/_kinematics_s.c\n'}
+[1.583944] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/srv/_robot_arm_array.py\n'}
+[1.584152] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/srv/_robot_arm_array_s.c\n'}
+[1.584654] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/rr_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.585141] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/rr_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.585691] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/rr_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.586004] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/msg/ArmJoint.idl\n'}
+[1.586293] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/msg/ImageMsg.idl\n'}
+[1.586581] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/msg/PointArray.idl\n'}
+[1.586862] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/msg/Position.idl\n'}
+[1.587140] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/msg/TargetArray.idl\n'}
+[1.587421] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/msg/Target.idl\n'}
+[1.587705] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/srv/Kinematics.idl\n'}
+[1.587986] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/srv/RobotArmArray.idl\n'}
+[1.588257] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/msg/ArmJoint.msg\n'}
+[1.588521] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/msg/ImageMsg.msg\n'}
+[1.588789] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/msg/PointArray.msg\n'}
+[1.589051] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/msg/Position.msg\n'}
+[1.589343] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/msg/TargetArray.msg\n'}
+[1.589602] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/msg/Target.msg\n'}
+[1.589888] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/srv/Kinematics.srv\n'}
+[1.590164] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/srv/Kinematics_Request.msg\n'}
+[1.590435] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/srv/Kinematics_Response.msg\n'}
+[1.590702] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/srv/RobotArmArray.srv\n'}
+[1.590968] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/srv/RobotArmArray_Request.msg\n'}
+[1.591237] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/srv/RobotArmArray_Response.msg\n'}
+[1.591548] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/ament_index/resource_index/package_run_dependencies/rr_msgs\n'}
+[1.591846] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/ament_index/resource_index/parent_prefix_path/rr_msgs\n'}
+[1.592139] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/environment/ament_prefix_path.sh\n'}
+[1.592408] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/environment/ament_prefix_path.dsv\n'}
+[1.592684] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/environment/path.sh\n'}
+[1.592951] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/environment/path.dsv\n'}
+[1.593239] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/local_setup.bash\n'}
+[1.593507] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/local_setup.sh\n'}
+[1.593770] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/local_setup.zsh\n'}
+[1.594028] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/local_setup.dsv\n'}
+[1.594225] (rr_msgs) StdoutLine: {'line': b'-- Symlinking: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/package.dsv\n'}
+[1.607921] (-) TimerEvent: {}
+[1.611433] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/ament_index/resource_index/packages/rr_msgs\n'}
+[1.611755] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.611973] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.612208] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.612477] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.612751] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.613018] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.613565] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.613760] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/rr_msgsConfig.cmake\n'}
+[1.613932] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/rr_msgsConfig-version.cmake\n'}
+[1.614123] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/package.xml\n'}
+[1.614518] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/lib/librr_msgs__rosidl_generator_c.so\n'}
+[1.614991] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/lib/librr_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.615430] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/lib/librr_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.615837] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/lib/librr_msgs__rosidl_typesupport_c.so\n'}
+[1.616267] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/lib/librr_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.616712] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/lib/librr_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.617170] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/lib/librr_msgs__rosidl_typesupport_cpp.so\n'}
+[1.679550] (rr_msgs) StdoutLine: {'line': b"Listing '/home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs'...\n"}
+[1.679888] (rr_msgs) StdoutLine: {'line': b"Listing '/home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/msg'...\n"}
+[1.680047] (rr_msgs) StdoutLine: {'line': b"Listing '/home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages/rr_msgs/srv'...\n"}
+[1.690387] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/lib/librr_msgs__rosidl_generator_py.so\n'}
+[1.690786] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/export_rr_msgs__rosidl_generator_cExport.cmake\n'}
+[1.691068] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/export_rr_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.691415] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/export_rr_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.691627] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/export_rr_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.691813] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/rr_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.691985] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/rr_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.692232] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/rr_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.692447] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/rr_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.692617] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/export_rr_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.692776] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/export_rr_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.692983] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/export_rr_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.693143] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/rr_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.693278] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/rr_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.693403] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/rr_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.693527] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/rr_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.693646] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/export_rr_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.693766] (rr_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orin/RogueRover/RR_ws/install/rr_msgs/share/rr_msgs/cmake/export_rr_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.697319] (rr_msgs) CommandEnded: {'returncode': 0}
+[1.708030] (-) TimerEvent: {}
+[1.808461] (-) TimerEvent: {}
+[1.909232] (-) TimerEvent: {}
+[1.952739] (rr_display) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/orin/RogueRover/RR_ws/build/rr_display/build', '--no-deps', 'symlink_data'], 'cwd': '/home/orin/RogueRover/RR_ws/build/rr_display', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'orin', 'SSH_CLIENT': '192.168.50.67 25230 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:', 'MOTD_SHOWN': 'pam', 'HOME': '/home/orin', 'OLDPWD': '/home/orin', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'orin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/orin/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/orin/RogueRover/RR_ws/build/rr_display', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.50.67 25230 192.168.50.243 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orin/RogueRover/RR_ws/build/rr_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/RogueRover/RR_ws/install/rr_display/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.975779] (rr_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/orin/RogueRover/RR_ws/build/rr_description/build', '--no-deps', 'symlink_data'], 'cwd': '/home/orin/RogueRover/RR_ws/build/rr_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'orin', 'SSH_CLIENT': '192.168.50.67 25230 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:', 'MOTD_SHOWN': 'pam', 'HOME': '/home/orin', 'OLDPWD': '/home/orin', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'orin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/orin/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/orin/RogueRover/RR_ws/build/rr_description', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.50.67 25230 192.168.50.243 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orin/RogueRover/RR_ws/build/rr_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/RogueRover/RR_ws/install/rr_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.009364] (-) TimerEvent: {}
+[2.015860] (rr_msgs) JobEnded: {'identifier': 'rr_msgs', 'rc': 0}
+[2.018732] (rr_velocity) JobStarted: {'identifier': 'rr_velocity'}
+[2.109482] (-) TimerEvent: {}
+[2.209984] (-) TimerEvent: {}
+[2.310459] (-) TimerEvent: {}
+[2.410983] (-) TimerEvent: {}
+[2.511460] (-) TimerEvent: {}
+[2.513037] (rr_display) StdoutLine: {'line': b'running develop\n'}
+[2.553048] (rr_description) StdoutLine: {'line': b'running develop\n'}
+[2.611802] (-) TimerEvent: {}
+[2.712267] (-) TimerEvent: {}
+[2.812773] (-) TimerEvent: {}
+[2.838909] (rr_display) StdoutLine: {'line': b'running egg_info\n'}
+[2.839350] (rr_display) StdoutLine: {'line': b'writing rr_display.egg-info/PKG-INFO\n'}
+[2.839811] (rr_display) StdoutLine: {'line': b'writing dependency_links to rr_display.egg-info/dependency_links.txt\n'}
+[2.840145] (rr_display) StdoutLine: {'line': b'writing entry points to rr_display.egg-info/entry_points.txt\n'}
+[2.840397] (rr_display) StdoutLine: {'line': b'writing requirements to rr_display.egg-info/requires.txt\n'}
+[2.840592] (rr_display) StdoutLine: {'line': b'writing top-level names to rr_display.egg-info/top_level.txt\n'}
+[2.844394] (rr_display) StdoutLine: {'line': b"reading manifest file 'rr_display.egg-info/SOURCES.txt'\n"}
+[2.845726] (rr_display) StdoutLine: {'line': b"writing manifest file 'rr_display.egg-info/SOURCES.txt'\n"}
+[2.848386] (rr_display) StdoutLine: {'line': b'running build_ext\n'}
+[2.848815] (rr_display) StdoutLine: {'line': b'Creating /home/orin/RogueRover/RR_ws/install/rr_display/lib/python3.10/site-packages/rr-display.egg-link (link to .)\n'}
+[2.850406] (rr_display) StdoutLine: {'line': b'Installing display script to /home/orin/RogueRover/RR_ws/install/rr_display/lib/rr_display\n'}
+[2.850976] (rr_display) StdoutLine: {'line': b'\n'}
+[2.851169] (rr_display) StdoutLine: {'line': b'Installed /home/orin/RogueRover/RR_ws/build/rr_display\n'}
+[2.851299] (rr_display) StdoutLine: {'line': b'running symlink_data\n'}
+[2.891416] (rr_description) StdoutLine: {'line': b'running egg_info\n'}
+[2.891849] (rr_description) StdoutLine: {'line': b'writing rr_description.egg-info/PKG-INFO\n'}
+[2.892381] (rr_description) StdoutLine: {'line': b'writing dependency_links to rr_description.egg-info/dependency_links.txt\n'}
+[2.892688] (rr_description) StdoutLine: {'line': b'writing entry points to rr_description.egg-info/entry_points.txt\n'}
+[2.892947] (rr_description) StdoutLine: {'line': b'writing requirements to rr_description.egg-info/requires.txt\n'}
+[2.893337] (rr_description) StdoutLine: {'line': b'writing top-level names to rr_description.egg-info/top_level.txt\n'}
+[2.897442] (rr_description) StdoutLine: {'line': b"reading manifest file 'rr_description.egg-info/SOURCES.txt'\n"}
+[2.898871] (rr_description) StdoutLine: {'line': b"writing manifest file 'rr_description.egg-info/SOURCES.txt'\n"}
+[2.901887] (rr_description) StdoutLine: {'line': b'running build_ext\n'}
+[2.902410] (rr_description) StdoutLine: {'line': b'Creating /home/orin/RogueRover/RR_ws/install/rr_description/lib/python3.10/site-packages/rr-description.egg-link (link to .)\n'}
+[2.904101] (rr_description) StdoutLine: {'line': b'\n'}
+[2.904345] (rr_description) StdoutLine: {'line': b'Installed /home/orin/RogueRover/RR_ws/build/rr_description\n'}
+[2.904480] (rr_description) StdoutLine: {'line': b'running symlink_data\n'}
+[2.904674] (rr_description) StdoutLine: {'line': b'creating /home/orin/RogueRover/RR_ws/install/rr_description/share/rr_description/launch\n'}
+[2.904941] (rr_description) StdoutLine: {'line': b'symbolically linking /home/orin/RogueRover/RR_ws/build/rr_description/launch/start_nodes_launch.py -> /home/orin/RogueRover/RR_ws/install/rr_description/share/rr_description/launch\n'}
+[2.905160] (rr_description) StdoutLine: {'line': b'creating /home/orin/RogueRover/RR_ws/install/rr_description/share/rr_description/urdf\n'}
+[2.905384] (rr_description) StdoutLine: {'line': b'symbolically linking /home/orin/RogueRover/RR_ws/build/rr_description/urdf/RogueRover.urdf -> /home/orin/RogueRover/RR_ws/install/rr_description/share/rr_description/urdf\n'}
+[2.905565] (rr_description) StdoutLine: {'line': b'creating /home/orin/RogueRover/RR_ws/install/rr_description/share/rr_description/meshes\n'}
+[2.905744] (rr_description) StdoutLine: {'line': b'creating /home/orin/RogueRover/RR_ws/install/rr_description/share/rr_description/rviz\n'}
+[2.912871] (-) TimerEvent: {}
+[2.936424] (rr_display) CommandEnded: {'returncode': 0}
+[2.955572] (rr_display) JobEnded: {'identifier': 'rr_display', 'rc': 0}
+[2.998458] (rr_description) CommandEnded: {'returncode': 0}
+[3.013032] (-) TimerEvent: {}
+[3.027363] (rr_description) JobEnded: {'identifier': 'rr_description', 'rc': 0}
+[3.113200] (-) TimerEvent: {}
+[3.213749] (-) TimerEvent: {}
+[3.314347] (-) TimerEvent: {}
+[3.352261] (rr_velocity) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/orin/RogueRover/RR_ws/build/rr_velocity/build', '--no-deps', 'symlink_data'], 'cwd': '/home/orin/RogueRover/RR_ws/build/rr_velocity', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'orin', 'SSH_CLIENT': '192.168.50.67 25230 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/orin/RogueRover/RR_ws/install/rr_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64', 'MOTD_SHOWN': 'pam', 'HOME': '/home/orin', 'OLDPWD': '/home/orin', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'orin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/orin/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/orin/RogueRover/RR_ws/install/rr_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/orin/RogueRover/RR_ws/build/rr_velocity', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.50.67 25230 192.168.50.243 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orin/RogueRover/RR_ws/build/rr_velocity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/RogueRover/RR_ws/install/rr_velocity/lib/python3.10/site-packages:/home/orin/RogueRover/RR_ws/install/rr_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/orin/RogueRover/RR_ws/install/rr_msgs'}, 'shell': False}
+[3.414446] (-) TimerEvent: {}
+[3.514953] (-) TimerEvent: {}
+[3.615505] (-) TimerEvent: {}
+[3.716017] (-) TimerEvent: {}
+[3.816487] (-) TimerEvent: {}
+[3.905788] (rr_velocity) StdoutLine: {'line': b'running develop\n'}
+[3.916578] (-) TimerEvent: {}
+[4.016972] (-) TimerEvent: {}
+[4.117433] (-) TimerEvent: {}
+[4.217899] (-) TimerEvent: {}
+[4.230812] (rr_velocity) StdoutLine: {'line': b'running egg_info\n'}
+[4.231239] (rr_velocity) StdoutLine: {'line': b'writing rr_velocity.egg-info/PKG-INFO\n'}
+[4.231493] (rr_velocity) StdoutLine: {'line': b'writing dependency_links to rr_velocity.egg-info/dependency_links.txt\n'}
+[4.231816] (rr_velocity) StdoutLine: {'line': b'writing entry points to rr_velocity.egg-info/entry_points.txt\n'}
+[4.232064] (rr_velocity) StdoutLine: {'line': b'writing requirements to rr_velocity.egg-info/requires.txt\n'}
+[4.232254] (rr_velocity) StdoutLine: {'line': b'writing top-level names to rr_velocity.egg-info/top_level.txt\n'}
+[4.236023] (rr_velocity) StdoutLine: {'line': b"reading manifest file 'rr_velocity.egg-info/SOURCES.txt'\n"}
+[4.237349] (rr_velocity) StdoutLine: {'line': b"writing manifest file 'rr_velocity.egg-info/SOURCES.txt'\n"}
+[4.240101] (rr_velocity) StdoutLine: {'line': b'running build_ext\n'}
+[4.240510] (rr_velocity) StdoutLine: {'line': b'Creating /home/orin/RogueRover/RR_ws/install/rr_velocity/lib/python3.10/site-packages/rr-velocity.egg-link (link to .)\n'}
+[4.242122] (rr_velocity) StdoutLine: {'line': b'Installing odom_pub script to /home/orin/RogueRover/RR_ws/install/rr_velocity/lib/rr_velocity\n'}
+[4.242512] (rr_velocity) StdoutLine: {'line': b'Installing vel_raw_pub script to /home/orin/RogueRover/RR_ws/install/rr_velocity/lib/rr_velocity\n'}
+[4.242945] (rr_velocity) StdoutLine: {'line': b'\n'}
+[4.243110] (rr_velocity) StdoutLine: {'line': b'Installed /home/orin/RogueRover/RR_ws/build/rr_velocity\n'}
+[4.243246] (rr_velocity) StdoutLine: {'line': b'running symlink_data\n'}
+[4.318041] (-) TimerEvent: {}
+[4.328908] (rr_velocity) CommandEnded: {'returncode': 0}
+[4.356840] (rr_velocity) JobEnded: {'identifier': 'rr_velocity', 'rc': 0}
+[4.359213] (-) EventReactorShutdown: {}

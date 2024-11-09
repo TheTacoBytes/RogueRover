@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/orin/RogueRover/RR_ws/build/rr_msgs/rosidl_generator_py/rr_msgs/rr_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" "TARGETS" "rr_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/rr_msgs")

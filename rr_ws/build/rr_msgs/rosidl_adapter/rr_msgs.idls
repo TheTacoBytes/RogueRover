@@ -1,0 +1,8 @@
+/home/orin/RogueRover/RR_ws/build/rr_msgs/rosidl_adapter/rr_msgs:msg/ArmJoint.idl
+/home/orin/RogueRover/RR_ws/build/rr_msgs/rosidl_adapter/rr_msgs:msg/ImageMsg.idl
+/home/orin/RogueRover/RR_ws/build/rr_msgs/rosidl_adapter/rr_msgs:msg/PointArray.idl
+/home/orin/RogueRover/RR_ws/build/rr_msgs/rosidl_adapter/rr_msgs:msg/Position.idl
+/home/orin/RogueRover/RR_ws/build/rr_msgs/rosidl_adapter/rr_msgs:msg/TargetArray.idl
+/home/orin/RogueRover/RR_ws/build/rr_msgs/rosidl_adapter/rr_msgs:msg/Target.idl
+/home/orin/RogueRover/RR_ws/build/rr_msgs/rosidl_adapter/rr_msgs:srv/Kinematics.idl
+/home/orin/RogueRover/RR_ws/build/rr_msgs/rosidl_adapter/rr_msgs:srv/RobotArmArray.idl

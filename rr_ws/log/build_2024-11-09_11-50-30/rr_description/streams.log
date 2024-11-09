@@ -1,0 +1,23 @@
+[1.312s] Invoking command in '/home/orin/RogueRover/RR_ws/build/rr_description': PYTHONPATH=/home/orin/RogueRover/RR_ws/build/rr_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/RogueRover/RR_ws/install/rr_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/orin/RogueRover/RR_ws/build/rr_description/build --no-deps symlink_data
+[1.853s] running develop
+[2.166s] running egg_info
+[2.166s] creating rr_description.egg-info
+[2.167s] writing rr_description.egg-info/PKG-INFO
+[2.167s] writing dependency_links to rr_description.egg-info/dependency_links.txt
+[2.167s] writing entry points to rr_description.egg-info/entry_points.txt
+[2.168s] writing requirements to rr_description.egg-info/requires.txt
+[2.168s] writing top-level names to rr_description.egg-info/top_level.txt
+[2.168s] writing manifest file 'rr_description.egg-info/SOURCES.txt'
+[2.170s] reading manifest file 'rr_description.egg-info/SOURCES.txt'
+[2.172s] writing manifest file 'rr_description.egg-info/SOURCES.txt'
+[2.175s] running build_ext
+[2.175s] Creating /home/orin/RogueRover/RR_ws/install/rr_description/lib/python3.10/site-packages/rr-description.egg-link (link to .)
+[2.176s] 
+[2.177s] Installed /home/orin/RogueRover/RR_ws/build/rr_description
+[2.177s] running symlink_data
+[2.177s] creating /home/orin/RogueRover/RR_ws/install/rr_description/share/ament_index
+[2.177s] creating /home/orin/RogueRover/RR_ws/install/rr_description/share/ament_index/resource_index
+[2.178s] creating /home/orin/RogueRover/RR_ws/install/rr_description/share/ament_index/resource_index/packages
+[2.178s] symbolically linking /home/orin/RogueRover/RR_ws/build/rr_description/resource/rr_description -> /home/orin/RogueRover/RR_ws/install/rr_description/share/ament_index/resource_index/packages
+[2.178s] symbolically linking /home/orin/RogueRover/RR_ws/build/rr_description/package.xml -> /home/orin/RogueRover/RR_ws/install/rr_description/share/rr_description
+[2.263s] Invoked command in '/home/orin/RogueRover/RR_ws/build/rr_description' returned '0': PYTHONPATH=/home/orin/RogueRover/RR_ws/build/rr_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/RogueRover/RR_ws/install/rr_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/orin/RogueRover/RR_ws/build/rr_description/build --no-deps symlink_data
