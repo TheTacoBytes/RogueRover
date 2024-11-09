@@ -1,7 +1,6 @@
-# Ignore everything
-*
+# Ignore everything inside rr_ws
+rr_ws/*
 
-# Except these files
-!.gitignore
-!LICENSE.md
-!rr_ws/
+# But do not ignore the rr_ws/src directory
+!rr_ws/src/
+

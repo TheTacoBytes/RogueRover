@@ -1,1 +1,0 @@
-/home/orin/RogueRover/RR_ws/build/rr_msgs/rosidl_generator_py/rr_msgs/_rr_msgs_s.ep.rosidl_typesupport_c.c

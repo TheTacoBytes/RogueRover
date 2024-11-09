@@ -1,1 +1,0 @@
-/home/orin/RogueRover/RR_ws/build/rr_msgs/rosidl_generator_cpp/rr_msgs/srv/detail/robot_arm_array__builder.hpp

@@ -1,6 +1,0 @@
-# Request
-string apply
----
-# Response
-float64[] angles
-

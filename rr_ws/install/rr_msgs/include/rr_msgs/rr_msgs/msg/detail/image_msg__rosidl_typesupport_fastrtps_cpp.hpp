@@ -1,1 +1,0 @@
-/home/orin/RogueRover/RR_ws/build/rr_msgs/rosidl_typesupport_fastrtps_cpp/rr_msgs/msg/detail/image_msg__rosidl_typesupport_fastrtps_cpp.hpp

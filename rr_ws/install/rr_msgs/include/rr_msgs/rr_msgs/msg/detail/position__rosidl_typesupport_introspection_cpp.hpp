@@ -1,1 +1,0 @@
-/home/orin/RogueRover/RR_ws/build/rr_msgs/rosidl_typesupport_introspection_cpp/rr_msgs/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp

@@ -1,4 +1,0 @@
-Rosmaster_Lib.egg-info/PKG-INFO
-Rosmaster_Lib.egg-info/SOURCES.txt
-Rosmaster_Lib.egg-info/dependency_links.txt
-Rosmaster_Lib.egg-info/top_level.txt

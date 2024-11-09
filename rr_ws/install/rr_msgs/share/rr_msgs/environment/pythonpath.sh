@@ -1,1 +1,0 @@
-/home/orin/RogueRover/RR_ws/build/rr_msgs/ament_cmake_environment_hooks/pythonpath.sh
