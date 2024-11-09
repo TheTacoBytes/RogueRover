@@ -1,6 +1,7 @@
 # Ignore everything in RR_ws except src
 rr_ws/*
 !rr_ws/src/
+!rr_ws/src/**
 
 # ROS-related ignores
 log/
