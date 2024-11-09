@@ -1,3 +1,7 @@
+# Ignore everything in RR_ws except src
+RR_ws/*
+!RR_ws/src/
+
 # ROS-related ignores
 log/
 install/
