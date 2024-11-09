@@ -1,39 +1,7 @@
-# Ignore everything in RR_ws except src
-#rr_ws/log
-#rr_ws/build
-#rr_ws/dist
-#rr_ws/install
-#rr_ws/Rosmaster_Lib.egg-info
-rr_ws/*
-!rr_ws/src/
-!rr_ws/src/**
+# Ignore everything
+*
 
-# ROS-related ignores
-log/
-install/
-build/
-.deps/
-.deps.bak/
-.deps-*
-
-# Python ignores
-__pycache__/
-*.py[cod]
-
-# Ignore virtual environments
-venv/
-ENV/
-
-# Ignore IDE settings
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-*.swp
-
-# Ignore image files 
-*.jpg
-*.png
-*.jpeg
+# Except these files
+!.gitignore
+!LICENSE.md
+!rr_ws/
